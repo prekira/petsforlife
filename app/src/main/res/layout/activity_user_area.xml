@@ -9,8 +9,8 @@
     <TextView
         android:id="@+id/tvWelcomeMsg"
         android:layout_width="309dp"
-        android:layout_height="66dp"
-        android:text="Welcome to Pets for Life! Please login here."
+        android:layout_height="70dp"
+        android:text="Welcome to Found! Please login here."
         android:textSize="24sp"
         tools:layout_editor_absoluteX="38dp"
         tools:layout_editor_absoluteY="16dp" />

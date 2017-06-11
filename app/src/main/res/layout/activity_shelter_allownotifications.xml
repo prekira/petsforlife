@@ -35,7 +35,7 @@
         android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/ok"
+        android:id="@+id/okaY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
@@ -50,7 +50,7 @@
 
 
     <Button
-        android:id="@+id/cancel"
+        android:id="@+id/canceL"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
