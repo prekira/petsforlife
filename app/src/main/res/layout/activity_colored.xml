@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.prekira.petzforlife.coloredActivity">
+    tools:context="com.example.prekira.petzforlife.Found_Questionaire.coloredActivity">
 
     <CheckBox
         android:layout_width="wrap_content"
