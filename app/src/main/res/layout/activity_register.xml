@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prekira.petzforlife.RegisterActivity"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="61dp">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:hint="Name" />
+
+        <EditText
+            android:id="@+id/etUserNames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etName"
+            android:layout_alignStart="@+id/etName"
+            android:layout_below="@+id/etName"
+            android:layout_marginTop="42dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:hint="Username" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etUserNames"
+            android:layout_alignStart="@+id/etUserNames"
+            android:layout_below="@+id/etUserNames"
+            android:layout_marginTop="56dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:hint="Password" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Register"
+            tools:hint="register"
+            android:layout_below="@+id/etPassword"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="362dp"
+        android:layout_height="68dp"
+        android:text="Please fill out the information about yourself below."
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="11dp" />
+</android.support.constraint.ConstraintLayout>

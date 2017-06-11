@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Petzforlife</string>
+    <string name="title_activity_landing_page">landing_page</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
