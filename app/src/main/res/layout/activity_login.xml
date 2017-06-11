@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context="com.example.prekira.petzforlife.LoginActivity">
 
     <EditText
@@ -23,8 +25,8 @@
         android:ems="10"
         android:inputType="textPassword"
         tools:hint="Password"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="138dp" />
+       android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"/>
 
     <TextView
         android:id="@+id/tvRegisterHere"
@@ -42,4 +44,4 @@
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="230dp" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
