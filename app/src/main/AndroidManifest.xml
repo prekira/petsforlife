@@ -3,6 +3,7 @@
     package="com.example.prekira.petzforlife">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature android:name="android.hardware.camera" />
 
@@ -23,9 +24,10 @@
         <activity
             android:name=".landing_page"
             android:label="@string/title_activity_landing_page" />
-        <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".UserAreaActivity"></activity>
+        <activity android:name=".UserAreaActivity" />
+        <activity android:name=".neighborhood" />
+        <activity android:name=".dashboard"></activity>
     </application>
 
 </manifest>
