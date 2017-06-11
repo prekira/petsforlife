@@ -25,26 +25,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
+
         <activity android:name=".NextActivity" />
         <activity android:name=".OtherActivity" />
         <activity android:name=".ActivityAHead" />
         <activity android:name=".ActivityTwoHeads" />
         <activity android:name=".coloredActivity" />
         <activity android:name=".lastpage" />
-=======
+
         <activity
             android:name=".landing_page"
             android:label="@string/title_activity_landing_page" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".UserAreaActivity" />
         <activity android:name=".shelter_hi" />
+
         <activity android:name=".shelter_allownotifications" />
         <activity
             android:name=".shelter_profile"
             android:label="@string/title_activity_shelter_profile" />
-        <activity android:name=".shelter_confirmation"></activity>
->>>>>>> master
+
+
+
+        <activity android:name=".shelter_confirmation" />
+        <activity android:name=".shelter_main"></activity>
     </application>
 
 </manifest>
