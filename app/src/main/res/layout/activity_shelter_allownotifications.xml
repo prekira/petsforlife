@@ -18,7 +18,8 @@
         android:layout_marginStart="20sp"
         android:layout_marginTop="20sp"
         android:text="Allow Notifications?"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="30sp"/>
 
     <TextView
         android:id="@+id/textView9"
@@ -30,7 +31,8 @@
         android:paddingRight="20sp"
         android:layout_below="@+id/textView8"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/ok"

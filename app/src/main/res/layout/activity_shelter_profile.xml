@@ -42,15 +42,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <EditText
+                <AutoCompleteTextView
                     android:id="@+id/sheltername"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Your shelter's name"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="textPassword"
+                    android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:singleLine="true" />
 
@@ -60,15 +57,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <EditText
-                    android:id="@+id/sheltername"
+                <AutoCompleteTextView
+                    android:id="@+id/YourName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Street"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="textPassword"
+                    android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:singleLine="true" />
 
@@ -78,15 +72,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <EditText
-                    android:id="@+id/sheltername"
+                <AutoCompleteTextView
+                    android:id="@+id/YourName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="City, State"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="textPassword"
+                    android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:singleLine="true" />
 
@@ -96,15 +87,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <EditText
-                    android:id="@+id/sheltername"
+                <AutoCompleteTextView
+                    android:id="@+id/YourName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Zip Code"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="textPassword"
+                    android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:singleLine="true" />
 

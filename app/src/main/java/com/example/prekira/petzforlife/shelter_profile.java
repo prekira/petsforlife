@@ -17,7 +17,7 @@ public class shelter_profile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shelter_allownotifications);
+        setContentView(R.layout.activity_shelter_profile);
 
         final Button submitbutton = (Button) findViewById(R.id.submitbutton);
         submitbutton.setOnClickListener(new View.OnClickListener() {

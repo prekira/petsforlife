@@ -19,18 +19,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".landing_page"
             android:label="@string/title_activity_landing_page" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".UserAreaActivity" />
-        <activity android:name=".shelter_hi" />
+        <activity android:name=".shelter_hi" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity android:name=".shelter_allownotifications" />
         <activity
             android:name=".shelter_profile"
