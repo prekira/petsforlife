@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content">
 
                 <AutoCompleteTextView
-                    android:id="@+id/Yourname"
+                    android:id="@+id/YourName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Your first name"
