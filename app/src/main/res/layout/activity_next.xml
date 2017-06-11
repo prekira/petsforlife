@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <Button
+        android:id="@+id/hairIsLong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long"
+        android:textSize="40sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/curlyIsTheHair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curly"
+        android:textSize="40sp"
+        android:layout_above="@+id/youAreShort"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/youAreShort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Short"
+        android:textSize="40sp"
+        android:layout_above="@+id/likeWires"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/likeWires"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wiry"
+        android:textSize="40sp"
+        android:layout_above="@+id/hairIsLong"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/whatGreatFurYouHave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="What type of fur does the dog have? "
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:layout_above="@+id/curlyIsTheHair"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp" />
+
+</RelativeLayout>

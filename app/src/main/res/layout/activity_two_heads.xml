@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <Button
+        android:id="@+id/prick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pointy"
+        android:textSize="35sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/side"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Folded to the side"
+        android:textSize="35sp"
+        android:layout_above="@+id/front"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="folded to the front"
+        android:textSize="35sp"
+        android:layout_above="@+id/prick"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pointing out"
+        android:textSize="35sp"
+        android:layout_above="@+id/down"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="folded down"
+        android:textSize="35sp"
+        android:layout_above="@+id/hound"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/hound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hound"
+        android:textSize="35sp"
+        android:layout_above="@+id/side"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="What are the shapes of the dog's ears?"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NextActivity" />
+        <activity android:name=".OtherActivity" />
+        <activity android:name=".ActivityAHead" />
+        <activity android:name=".ActivityTwoHeads" />
+        <activity android:name=".coloredActivity" />
+        <activity android:name=".lastpage" />
     </application>
 
 </manifest>

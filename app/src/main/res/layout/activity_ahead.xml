@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <Button
+        android:id="@+id/isABlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blocky"
+        android:textSize="40sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/swiperNoSwiping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snipey"
+        android:textSize="40sp"
+        android:layout_above="@+id/isABlock"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/dome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Domed"
+        android:textSize="40sp"
+        android:layout_above="@+id/Apple"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Apple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apple"
+        android:textSize="40sp"
+        android:layout_above="@+id/DishOut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/DishOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dish"
+        android:textSize="40sp"
+        android:layout_above="@+id/BrokeN"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/BrokeN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Broken"
+        android:textSize="40sp"
+        android:layout_above="@+id/swiperNoSwiping"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="What shape is the dog's head/snout?"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+
+</RelativeLayout>
