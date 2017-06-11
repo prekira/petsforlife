@@ -2,6 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.prekira.petzforlife">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,19 +18,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".NextActivity" />
         <activity android:name=".OtherActivity" />
         <activity android:name=".ActivityAHead" />
         <activity android:name=".ActivityTwoHeads" />
         <activity android:name=".coloredActivity" />
         <activity android:name=".lastpage" />
+=======
+        <activity
+            android:name=".landing_page"
+            android:label="@string/title_activity_landing_page" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".UserAreaActivity" />
+        <activity android:name=".shelter_hi" />
+        <activity android:name=".shelter_allownotifications" />
+        <activity
+            android:name=".shelter_profile"
+            android:label="@string/title_activity_shelter_profile" />
+        <activity android:name=".shelter_confirmation"></activity>
+>>>>>>> master
     </application>
 
 </manifest>

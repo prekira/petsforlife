@@ -6,11 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class shelter_hi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD:app/src/main/java/com/example/prekira/petzforlife/MainActivity.java
         setContentView(R.layout.activity_main);
 
        final Button nextQuestion = (Button) findViewById(R.id.otherAnimal);
@@ -32,5 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+=======
+        setContentView(R.layout.activity_shelter_hi);
+>>>>>>> master:app/src/main/java/com/example/prekira/petzforlife/shelter_hi.java
     }
 }
