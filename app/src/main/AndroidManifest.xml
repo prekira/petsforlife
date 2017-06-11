@@ -6,6 +6,11 @@
 
     <uses-feature android:name="android.hardware.camera" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,9 +28,14 @@
         <activity
             android:name=".landing_page"
             android:label="@string/title_activity_landing_page" />
-        <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".UserAreaActivity"></activity>
+        <activity android:name=".UserAreaActivity" />
+        <activity android:name=".shelter_hi" />
+        <activity android:name=".shelter_allownotifications" />
+        <activity
+            android:name=".shelter_profile"
+            android:label="@string/title_activity_shelter_profile" />
+        <activity android:name=".shelter_confirmation"></activity>
     </application>
 
 </manifest>

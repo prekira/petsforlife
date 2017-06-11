@@ -1,10 +1,13 @@
 package com.example.prekira.petzforlife;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class landing_page extends AppCompatActivity {
@@ -46,24 +49,24 @@ public class landing_page extends AppCompatActivity {
         lost.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent();
-                i.setClass(landing_page.this, lost_pet.class);
-                startActivity(i);
+                //i.setClass(landing_page.this, lost_pet.class);
+                //startActivity(i);
             }
         });
         final Button found = (Button) findViewById(R.id.found);
         found.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent();
-                i.setClass(landing_page.this, found.class);
-                startActivity(i);
+                //i.setClass(landing_page.this, found.class);
+                //startActivity(i);
             }
         });
         final Button shelter = (Button) findViewById(R.id.shelter);
         shelter.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent();
-                i.setClass(landing_page.this, shelter_page.class);
-                startActivity(i);
+                //i.setClass(landing_page.this, shelter_page.class);
+                //startActivity(i);
             }
         });
     }
